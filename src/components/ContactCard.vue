@@ -26,6 +26,7 @@ export default {
         <div class="p-1">
             <strong>Liên hệ yêu thích:&nbsp;</strong>
             <i v-if="contact.favorite" class="fa fa-check-circle"></i>
+            
             <i v-else class="fa fa-minus-square"></i>
         </div>
     </div>
